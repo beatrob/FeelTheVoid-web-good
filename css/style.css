@@ -9,7 +9,11 @@
  */
 
 
-article h2 { font-family: 'Open Sans Condensed', sans-serif; font-size: 60px; margin: 25px 0; line-height: 1em; }
+article h2 {
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 60px; margin: 25px 0; 
+	line-height: 1em;
+}
 
 .header { height: 750px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 
@@ -27,19 +31,46 @@ article h2 { font-family: 'Open Sans Condensed', sans-serif; font-size: 60px; ma
     z-index: 1000;
 }
 
-#first {    background-image: url(../images/index-03.jpg);
+#first {    background-image: url(../images/firstbackground.jpg);
     		background-repeat: no-repeat;
-			background-size: 100%; 
+			background-size: 100%;
 			}
-#second { background-color: rgb(230,230,230); height: 600px;}
+#second { background-image: url(../images/secondbg.jpg);
+    		background-repeat: no-repeat;
+			background-size: 100%;
+			height: 600px;}
 #third { background-image: url(../images/microphone.jpg);
+    		background-repeat: no-repeat;
+			background-size: 100% 600px;
+			background-position-y: 0px;
+			height: 300px;
+			background-color: black;
+			  }
+#fourth { background-image: url(../images/biobg.jpg);
     		background-repeat: no-repeat;
 			background-size: 100%;
 			background-position-y: 0px;
-			  }
-#fourth { background: url(../images/slide3.jpg) 50% 0 no-repeat fixed; height: 800px; }
+			height: 800px;
+			background-color: black; }
 
-#theend { background: url(../images/puckered.png) 50% bottom no-repeat fixed; }
+#theend { background: url(../images/puckered.png) 50% bottom no-repeat fixed; height: 600px;}
+
+#logo { background-image: url(../images/ftv_logo.png);
+    		background-repeat: no-repeat;
+			background-size: 400px 400px;
+			width: 400px;
+			height: 400px;
+			position: absolute;
+			margin-left: 70px;
+			margin-top: 100px;
+			}
+
+#social {
+	margin: auto;
+	width: 640px;
+	height: 800px;
+	
+}
 
 /* Introduction */
 /*#first .smashinglogo { background: url(../images/smashing-logo.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
@@ -56,13 +87,68 @@ article h2 { font-family: 'Open Sans Condensed', sans-serif; font-size: 60px; ma
 #second article a { color: #ff0;}*/
 
 /* Photograph */
-#second article {  background: url(../images/grain.png) repeat #333; color: #fff; padding: 10px 20px; margin: 30px 0 0 30px; width: 600px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); font-family: 'Raleway', sans-serif; font-weight: 200; font-size: medium;}
-#third article {  background: url(../images/grain.png) repeat #333; color: #fff; padding: 10px 20px; margin: 150px 0 0 1200px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second article {
+	background: url(../images/grain.png) repeat #333; 
+	color: #fff; 
+	padding: 10px 20px;
+	margin: 30px 0 0 30px; 
+	width: 600px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+	line-height: 1.5em;
+	color: #fff;
+	position: absolute; 
+	top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3);
+	border: 1px solid rgba(150,150,150,0.1);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300; 
+	font-size: medium;
+}
+
+
+#third article {  
+	background: url(../images/grain.png) repeat #333; 
+	color: #fff; 
+	padding: 10px 20px; 
+	margin: 150px 0 0 1200px; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+	line-height: 1.5em;
+	color: #fff; 
+	position: absolute;
+	top: 0; 
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+	border: 1px solid rgba(150,150,150,0.1); 
+}
+
+#theend article {
+	color: #fff;
+	font-size: 24px;
+}
+
+#rectitle
+{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 180px;
+	height: 600px;
+	margin-top: 70px;
+	margin-left: 120px;
+	position: absolute;
+	float: right;
+	opacity: 0.3;
+	
+}
+
+#rectitle p {
+	margin: -90px;
+}
+
+#theend article p { font-family: 'Open Sans Condensed', sans-serif; margin-top: 25px; margin-bottom: 25px; }
+
 #third .photograph { background: url(../images/photo.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#third article p { width: 300px; margin-bottom: 25px; }
+#third article p { font-family: 'Open Sans Condensed', sans-serif; width: 300px; margin-bottom: 25px; }
 
 /* HTML5 Video */
-#fourth article {  margin-left: 10%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#fourth article {  font-family: 'Open Sans Condensed', sans-serif; margin-left: 10%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; font-size: 18px; }
 #fourth article p { width: 300px; margin: 50px 0; }
 #fourth video { position: fixed; left: 50%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 1;}
 

@@ -9,8 +9,7 @@
   <meta name="author" content="Robert Konczi">
 
   <!-- Mmmmm, Google Web Fonts. That's a paddlin'. -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,7 +19,9 @@
   <div id="main" role="main">
   	
 	<!-- Section #1 / Intro -->
-	<section id="first" class="header" data-speed="4" data-type="background"></section>
+	<section id="first" class="header" data-speed="4" data-type="background">
+		<div id="logo"></div>
+	</section>
 
 	<!-- Section #2 / Background Only -->
 	<section id="second" data-type="sprite" class="story" data-speed="6" data-type="background" data-offsetY="=850">		
@@ -31,33 +32,37 @@
 	</section>
 	
 	<!-- Section #3 / Photos -->
-	<section id="third" class="story" data-speed="2" data-type="background" data-offsetY="400"> 
+	<!-- <section id="third" class="story" data-speed="4" data-type="background" data-offsetY="180"> 
     	<article>
     		<h2>BIO</h2>
     	</article>
-	</section>	
+	</section>	-->
 	
 
 	<!-- Section #4 / HTML5 Video -->
-	<section id="fourth" class="story" data-speed="8" data-type="background" data-offsetY="250">
+	<section id="fourth" class="story" data-speed="2" data-type="background" data-offsetY="350">
     	<article>
-    		<h2>HTML5 Video</h2>
+    		<h2>BIO</h2>
 	    	<div class="textbox">    	
 		    	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 		    	<p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 		    	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. o.</p>
 		    </div>
     	</article>
-		<video controls width="640" width="480" data-type="video" data-offsetY="2400" data-speed="1.5">
-			<source src="video/parallelparking.theora.ogv" type="video/ogg" />
-			<source src="video/parallelparking.mp4" type="video/mp4" />
-			<source src="video/parallelparking.webm" type="video/webm" />
-		</video>
 	</section>	
 
 	<!-- Section #5 / The End-->
-	<section id="theend" class="story" data-speed="8" data-type="background" data-offsetY="250">    	
-		<div class="byebye" data-type="sprite" data-offsetY="-1600" data-Xposition="50%" data-speed="-2"></div>	
+	<section id="theend" class="story" data-speed="8" data-type="background" data-offsetY="250">
+		<div id="rectitle"><p>REC</p><p>OR</p><p>DS</p></div>
+		<div id="social">
+			<article>
+			<p>Our newest video available on YouTube</p>
+			<h2>Any Other Day</h2>
+			</article>
+			<object width="640" height="360"><param name="movie" value="//www.youtube.com/v/e1JpLnKsJLc?hl=cs_CZ&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/e1JpLnKsJLc?hl=cs_CZ&amp;version=3" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+			<div class="byebye" data-type="sprite" data-offsetY="-1600" data-Xposition="50%" data-speed="-2"></div>	
+		</div>
+	
 	</section>
 	
   </div> <!-- // End of #main -->
